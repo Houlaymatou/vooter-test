@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>Projet Vooter</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+ <div class="header clearfix">
+        <nav>
+            <ul class="nav nav-pills pull-right">
+	            <li role="presentation" class=""><a href="index.php">Home</a></li>
+	            <li role="presentation" class="active"><a href="#" class="button">Boutton</a></li>
+          </ul>
+        </nav>
+        
+    </div>
+ <!--Container-->
+  <div  class="container">
+		     
+		   	<?php require('header.html.php'); ?>
+		     
+		      <div class="well">
+			      <div class="row marketing">
+				        <div class="col-xs-3 sidebar">
+				        	<div class="panel panel-default">
+				        	<div class="panel-heading"><h4>Sidebar</h4></div>
+				        	<div class="panel-body">
+					          
+					          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+					          <i>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.
+					          </i>
+
+					          <h4>Subheading</h4>
+					          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+					        </div>
+				          </div>
+				        </div>
+
+				        <div class="col-xs-9 main">
+				          <h2 class="text-primary">Subheading</h2>
+				          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+
+				          <h4>Subheading</h4>
+				          <p class="italic">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+
+				          <h4>Subheading</h4>
+				          <p> <span>Maecenas sed diam eget risus varius blandit sit amet non magna.</span></p>
+				        </div>
+			      </div>
+			
+		      </div>
+
+<!--Footer-->
+ <footer class="footer">
+      <!-- Button trigger modal -->
+	<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+	 Lancer la modal
+	</button>
+
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title" id="myModalLabel">Formulaire</h4>
+	      </div>
+	      <div class="modal-body">
+	       <div class="jumbotron">
+				 <form id="formsubmit" name="formsubmit">
+				  <div class="form-group">
+				    <label for="nom" class="label-control">Nom</label>
+				    <input type="text" class="form-control" id="nom" name="nom" placeholder="Nom">
+				  </div>
+				  <div class="form-group">
+				    <label for="prenom" class="label-control">Prenom</label>
+				    <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Prenom">
+				  </div>
+				  
+				  <input type="submit" class="btn btn-primary" value="Envoyez" name="submit">
+				</form>
+	        </div>
+	      </div>
+	      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      
+      </div>
+	    </div>
+	  </div>
+	</div>
+   </footer>
+
+<script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>

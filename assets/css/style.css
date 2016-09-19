@@ -1,0 +1,53 @@
+body{
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+}
+/* Mise en page du header*/
+.header{
+	height: 100px;
+	background-color: #000000;	
+}
+.headerToggle{
+	height: 100px;
+	background-color: #696969;
+	margin:0 0 2px 0;
+}
+
+ul li{
+	margin:20px 5px 20px 0;
+}
+
+
+/*Mise en page du container*/
+
+.panel{
+	height: 300px;
+	width: 100px; 
+	overflow: hidden;
+
+}
+
+.main{
+    
+	background-image: url("../../assets/images/pier_1080.jpg");
+	background-repeat: no-repeat;
+	background-position: top;
+	height: 600px;
+	text-align: justify;
+	margin-left: -40px;
+
+}
+
+.italic{
+	font-style: oblique;
+	color: red;
+	font-weight: bold;
+}
+span{
+	font-weight: bolder;
+}
+
+footer{
+	text-align: center;
+}
